@@ -37,10 +37,10 @@ def argmax(lst):
             value_max= value
 
     return imax 
-#values=[2,3,-1,7,4]
-values=[]
-try:
-    i=argmax(values)
-    print(f'Index of max value: {i}')
-except ValueError:
-    print('Empty list!!')
+if __name__== "__main__":
+    values=[2,3,-1,7,4]
+    try:
+        i=argmax(values)
+        print(f'Index of max value: {i}')
+    except ValueError:
+        print('Empty list!!')
